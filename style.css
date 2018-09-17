@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
 .clearfix::after {
     content: "";
     display: block;
@@ -10,12 +15,14 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    padding: 0;
+    margin: 10px 250px;
 
 }
 
 header {
     background: #ebebeb;
-    margin: 5px 0;
+    margin: 10px 0;
     padding: 40px;
     text-align: center;
 S
@@ -33,6 +40,7 @@ S
     background: #ebebeb;
     width: 495px;
     height: 200px;
+    border: 1px solid red;
 
 }
 
@@ -50,6 +58,8 @@ S
     background: #777;
     width: 465px;
     margin-top: 40px;
+    float: left;
+    border: 1px solid black;
 
 }
 
@@ -57,6 +67,7 @@ S
     color: #777;
     background: #ebebeb;
     width: 465px;
+    border: 1px solid blue;
 
 }
 
@@ -69,7 +80,7 @@ S
 
 footer {
     background: #ebebeb;
-    margin: 5px 0;
+    margin: 0 auto;
     padding: 40px;
     text-align: center;
 
